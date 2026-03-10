@@ -51,7 +51,7 @@ if verificar_senha():
     curva_dolar_input = st.sidebar.number_input("Curva Dólar (%)", value=8.60, format="%.2f")
     juros_aa_input = st.sidebar.number_input("Juros a.a. (%)", value=7.20, format="%.2f")
 
-    fobbings = st.sidebar.number_input("Fobbings", value=8.50, format="%.2f")
+    fobbings = st.sidebar.number_input("Fobbings", value=9.00, format="%.2f")
     retencao_quebra = st.sidebar.number_input("Retenção/Quebra Rod (Multiplicador)", value=1.0015, format="%.4f")
     desagio_financeiro = st.sidebar.selectbox("Deságio Financeiro?", ["SIM", "NÃO"])
 
